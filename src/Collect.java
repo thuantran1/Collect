@@ -30,6 +30,7 @@ public class Collect {
 	 * Show the differences between HashMaps and TreeMaps
 	 * HashMaps contain a key along with a vakue and is faster than a TreeMap
 	 * TreeMaps are like HashMaps but it also keeps the order of the keys
+	 * TreeMaps should be used when ordering of key, value pairs are important
 	 */
 	public static void hashAndTree() {
 		HashMap<String, Integer> hash = new HashMap<String, Integer>();	//create a HashMap
@@ -44,6 +45,8 @@ public class Collect {
 		
 		System.out.println("Hash: " + hash);
 		System.out.println("Trees: " + tree);
+		
+		//use TreeMaps for ordering of key, value pairs
 		
 		
 	}
